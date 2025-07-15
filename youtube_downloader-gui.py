@@ -184,7 +184,8 @@ class YouTubeDownloaderApp(ctk.CTk):
             self.after(0, self.display_videos)
 
         except Exception as e:
-            self.after(0, lambda: messagebox.showerror("Error", f"Failed to fetch playlist: {e}"))
+            # CORRECTED LINE: Pass 'e' as an argument to the lambda
+            self.after(0, lambda error_msg=e: messagebox.showerror("Error", f"Failed to fetch playlist: {error_msg}"))
         finally:
             self.is_fetching = False
             self.load_button.configure(state=tk.NORMAL)

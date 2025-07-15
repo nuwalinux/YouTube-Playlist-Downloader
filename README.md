@@ -41,7 +41,7 @@ Install it using pip:
 CustomTkinter (for GUI application only): A modern Tkinter library for a nicer look.
 Install it using pip:
 
-#python -m pip install customtkinter
+# python -m pip install customtkinter
 
 
 How to Run the Applications

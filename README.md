@@ -26,7 +26,7 @@ Prerequisites
 
 Before running either script, ensure you have the following installed on your system:
 
-Python: Version 3.8 or higher is recommended.
+Python: Version 3.14 is recommended.
 Download from: python.org
 Important: During Python installation on Windows, make sure to check the box that says "Add Python to PATH" or "Add Python to environment variables."
 
@@ -34,12 +34,14 @@ pip: This is Python's package installer and usually comes bundled with Python. Y
 
 yt-dlp: The powerful video downloader that powers these scripts.
 Install it using pip:
-python -m pip install yt-dlp
+
+# python -m pip install yt-dlp
 
 
 CustomTkinter (for GUI application only): A modern Tkinter library for a nicer look.
 Install it using pip:
-python -m pip install customtkinter
+
+#python -m pip install customtkinter
 
 
 How to Run the Applications
